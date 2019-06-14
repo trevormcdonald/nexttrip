@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  max-width: 38rem;
+  padding: 0.5rem;
+  color: #555;
+}
+
+label {
+  font-weight: bold;
+}
+
+.routeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.routeSelect {
+  margin: 5px;
+}
+
+.directionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.directionSelect {
+  margin: 5px;
+}
+
+.stopsContainer {
+  margin: 5px;
+}
+.stopHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.stop {
+  display: flex;
+  justify-content: space-between;
+}
+.stop div {
+}
