@@ -89,7 +89,7 @@ describe("NextTrip Case Study", function() {
 
     it("and manually changing the window location hash", function() {
       cy.get(".routeSelect").should("have.value", "223");
-      cy.visit("#!/921/4", { timeout: 5000 });
+      cy.visit("#!/921/4", { timeout: 15000 });
       cy.get(".routeSelect").should("have.value", "921");
       cy.get(".directionSelect").should("have.value", "4");
       cy.contains("Stop");
