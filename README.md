@@ -38,7 +38,6 @@ Note: on Linux (Debian) systems execute this command so Cypress can launch:
 
 - run `yarn test`
 - in the window that opens click on `unit_test_specs.js` to run unit tests against the application models
-- during this step, the tests pause 3 times (once per model), click the play button at the top of the screen to advance the test
 - in the first window that opened, click on `nexttrip_spec.js` to run tests with the DOM
 - tests live in `cypress/integration/`
 
